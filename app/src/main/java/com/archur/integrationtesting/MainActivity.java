@@ -10,9 +10,9 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText txt_first,txt_second;
-    private EditText txt_result;
-    private Button calculate;
+    public EditText txt_first,txt_second;
+    public EditText txt_result;
+    public Button calculate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

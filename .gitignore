@@ -1,0 +1,10 @@
+*.iml
+local.properties
+.gradle/
+.idea/
+.cxx
+build/
+tenextll/build/
+tenextlldemo/build/
+.DS_Store
+app/.DS_Store
