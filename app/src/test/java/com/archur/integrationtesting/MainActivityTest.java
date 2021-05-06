@@ -30,14 +30,14 @@ public class MainActivityTest {
         Button btn = activity.findViewById(R.id.button);
         et1.setText("1");
         et2.setText("2");
-//        btn.performClick();
-//
-//        Intent expectedIntent = new Intent(activity, SecondActivity.class);
-//        Intent actual = shadowOf(RuntimeEnvironment.application).getNextStartedActivity();
-//        System.out.println(expectedIntent.getComponent() + " " + actual.getComponent());
-//        assertEquals(expectedIntent.getComponent(), actual.getComponent());
+        btn.performClick();
+
+        Intent expectedIntent = new Intent(activity, SecondActivity.class);
+        Intent actual = shadowOf(RuntimeEnvironment.application).getNextStartedActivity();
+        System.out.println(expectedIntent.getComponent() + " " + actual.getComponent());
+        assertEquals(expectedIntent.getComponent(), actual.getComponent());
         assertEquals("1", et1.getText().toString());
         assertEquals("2", et2.getText().toString());
-//        assertEquals("3", et3.getText().toString());
+        assertEquals("3", et3.getText().toString());
     }
 }
