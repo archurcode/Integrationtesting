@@ -45,9 +45,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:rules:1.0.2'
 
     testImplementation 'org.robolectric:robolectric:4.5.1'
-    implementation 'com.tencent.iot.explorer:explorer-device-java:#####'
-    implementation 'com.tencent.iot.explorer:explorer-device-android:#####'
-    implementation 'com.tencent.iot.hub:hub-device-java:#####'
-    implementation 'com.tencent.iot.hub:hub-device-android:#####'
+    implementation 'com.tencent.iot.explorer:explorer-device-java:xxxxx'
+    implementation 'com.tencent.iot.explorer:explorer-device-android:xxxxx'
+    implementation 'com.tencent.iot.hub:hub-device-java:xxxxx'
+    implementation 'com.tencent.iot.hub:hub-device-android:xxxxx'
     
 }
