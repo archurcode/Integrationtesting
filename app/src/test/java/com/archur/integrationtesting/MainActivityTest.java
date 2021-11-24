@@ -38,6 +38,6 @@ public class MainActivityTest {
         assertEquals(expectedIntent.getComponent(), actual.getComponent());
         assertEquals("1", et1.getText().toString());
         assertEquals("2", et2.getText().toString());
-        assertEquals("3", et3.getText().toString());
+        assertEquals("3", et3.getText().toString()); //test
     }
 }
