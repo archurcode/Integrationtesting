@@ -32,6 +32,13 @@ android {
             includeAndroidResources = true
         }
     }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
 dependencies {
